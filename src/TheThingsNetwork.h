@@ -41,7 +41,7 @@ enum ttn_fp_t
 
 class TheThingsNetwork
 {
-private:
+protected:
   Stream *modemStream;
   Stream *debugStream;
   ttn_fp_t fp;
